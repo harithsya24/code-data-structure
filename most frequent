@@ -1,0 +1,13 @@
+def most_frequent():
+    a = input("please enter a string:\n")
+    for i in a:
+         w=(a.count("M"))
+         x=(a.count('i'))
+         y=(a.count('s'))
+         z=(a.count('p'))
+    print(f"M={w}")
+    print(f'i={x}')
+    print(f"s={y}")
+    print(f"p={z}")
+
+most_frequent()
